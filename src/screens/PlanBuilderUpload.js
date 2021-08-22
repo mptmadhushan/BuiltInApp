@@ -37,7 +37,7 @@ const MainScreen = ({routes, navigation}) => {
           type: 'image/jpg',
           name: 'image.jpg',
         });
-        fetch(`{BASE_URL}/predict`, {
+        fetch(`{BASE_URL}`, {
           method: 'POST',
           headers: {
             'Content-Type': 'multipart/form-data',
@@ -75,7 +75,7 @@ const MainScreen = ({routes, navigation}) => {
         type: 'image/jpg',
         name: 'image.jpg',
       });
-      fetch(`{BASE_URL}/predict`, {
+      fetch(`{BASE_URL}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'multipart/form-data',

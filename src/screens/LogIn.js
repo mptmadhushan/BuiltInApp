@@ -86,7 +86,7 @@ const LoginScreen = ({navigation}) => {
             style={{
               width: SIZES.width * 0.3,
               height: SIZES.width * 0.3,
-              marginBottom: SIZES.height * 0.1,
+              marginBottom: SIZES.height * 0.05,
               // tintColor: focused ? COLORS.primary : COLORS.secondary,
             }}
           />

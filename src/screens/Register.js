@@ -111,7 +111,7 @@ const RegisterScreen = ({navigation}) => {
                   userNameError ? styles.inputStyleError : '',
                 ]}
                 onChangeText={UserName => setUserName(UserName)}
-                placeholder="Username"
+                placeholder="First Name"
                 placeholderTextColor={COLORS.white}
                 autoCapitalize="none"
                 keyboardType="email-address"
@@ -140,7 +140,7 @@ const RegisterScreen = ({navigation}) => {
                   userNameError ? styles.inputStyleError : '',
                 ]}
                 onChangeText={UserEmail => setUserEmail(UserEmail)}
-                placeholder="Username"
+                placeholder="Last Name"
                 placeholderTextColor={COLORS.white}
                 autoCapitalize="none"
                 keyboardType="email-address"
